@@ -26,3 +26,7 @@ article {
     border-collapse: collapse;
     margin-bottom: 10px;
 }
+
+article:hover {
+    background-color: lightblue;
+}

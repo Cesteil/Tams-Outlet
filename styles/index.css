@@ -11,6 +11,10 @@ ul.items {
     gap: 5px;
 }
 
+ul.items li:hover {
+    background-color: lightblue;
+}
+
 #TopPicture {
     width: 960px;
     height: 170px;
@@ -27,3 +31,4 @@ li img {
     width: 200px;
     height: 200px;
 }
+

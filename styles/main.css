@@ -4,6 +4,7 @@ Use this file for styles that apply to ALL pages, such as page header or footer 
 
 body {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -33,10 +34,14 @@ ul.links li {
     border: inset;
     border-width: 5px;
     background-color: tan;
-    
+
 }
 
-footer {
+ul.links li:hover{
+    border: none;
+}
+
+footer.copyright {
     background-color: tan;
     border: inset;
     border-width: 5px;

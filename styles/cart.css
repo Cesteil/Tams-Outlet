@@ -6,7 +6,8 @@ table {
 }
 
 td {
-    padding:50px;
+    padding-left:30px;
+    padding-right: 30px;
     border: solid;
 }
 
@@ -16,5 +17,14 @@ td {
 
 .img {
     display: flex;
-    
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input.button {
+    margin: 30px;
 }
