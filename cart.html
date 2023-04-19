@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tam's Deposit Form</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+  <header>
+    <h1>Tam's Single Item Outlet</h1>
+    <h2>The best place to acquire That One Thing(tm)</h2>
+    <a href="index.html"><img src="https://placehold.co/300x300?font=raleway&text=Tam%27s+Logo"/></a>
+    <nav>
+      <ul>
+        <li><a href="item.html">Information</a></li>
+        <li><a href="cart.html">Your Cart</a></li>
+      </ul>
+    </nav>
+    <div>
+      <a href="#"><img src="https://placehold.co/960x200?font=roboto&text=This+Ad+Is+NOT+A+Scam"></a>
+    </div>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://placehold.co/200x200?font=raleway&text=Flattering+Image">That One Thing</td>
+          <td>1</td>
+          <td>$9.99</td>
+        </tr>
+        <tr>
+          <td><img src="https://placehold.co/200x200?font=raleway&text=Flattering+Image">That One Thing</td>
+          <td>6</td>
+          <td>$3.19</td>
+        </tr>
+        <tr>
+          <td><img src="https://placehold.co/200x200?font=raleway&text=Flattering+Image">That One Thing</td>
+          <td>3.5</td>
+          <td>$99.12</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Subtotal</th>
+          <td colspan="2">$376.05</td>
+        </tr>
+        <tr>
+          <th>Tax</th>
+          <td colspan="2">56.41 <span>(15%)</span></td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td colspan="2">$432.46</td>
+        </tr>
+      </tfoot>
+    </table>
+    <form>
+      <h3>Purchase Your Things</h3>
+      <fieldset>
+        <legend>Address</legend>
+        <p>
+          <label for="street">Street address</label>
+          <input type="text" id="street" name="street" required>
+        </p>
+        <p>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" required>
+        </p>
+        <p>
+          <label for="state">State or Province</label>
+          <input type="text" id="state" name="state" required>
+        </p>
+        <p>
+          <label for="postal">ZIP or postal code (optional)</label>
+          <input type="number" max="99999" min="11111" id="postal" name="postal" required>  
+        </p>
+        <p>
+          <label for="country">Country or region</label>
+          <input type="text" id="country" name="country" required>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Credit Card Information</legend>
+        <p>
+          <label for="name">Name on Card</label>
+          <input type="text" id="name" name="name">
+        </p>
+        <p>
+          <label for="card">Card Number</label>
+          <input type="text" id="card" name="card">
+        </p>
+        <p>
+          <label for="expiration">Expiration (mm/yy)</label>
+          <input type="text" id="expiration" name="expiration">
+        </p>
+        <p>
+          <label for="security">Security Code</label>
+          <input type="text" id="security" name="security">
+        </p>
+      </fieldset>
+      <footer>
+        <input type="submit" onclick="return false;" value="Share Sensitive Information with Tam">
+      </footer>
+    </form>
+  </main>
+  <footer>
+    &copy; Tam's Super Legit Business Co. LLC
+  </footer>
+</body>
+</html>
