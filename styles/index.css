@@ -10,3 +10,20 @@ ul.items {
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
 }
+
+#TopPicture {
+    width: 960px;
+    height: 170px;
+}
+
+.side-ad {
+    width: 200px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li img {
+    width: 200px;
+    height: 200px;
+}

@@ -13,3 +13,16 @@ tr {
     border-bottom: 1pt solid black;
     border-collapse: collapse;
 }
+
+#Item {
+    max-width: 500px;
+    max-height: 400px;
+}
+
+article {
+    border:solid;
+    border-radius: 25px;
+    border-color: blue;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}

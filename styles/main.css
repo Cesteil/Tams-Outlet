@@ -14,3 +14,34 @@ ul {
 html {
     background-color: aqua;
 }
+
+header > h1,h2 {
+    background-color: tan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: inset;
+    border-width: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.links li {
+    display: inline;
+    padding: 15px;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: inset;
+    border-width: 5px;
+    background-color: tan;
+    
+}
+
+footer {
+    background-color: tan;
+    border: inset;
+    border-width: 5px;
+}
+
+ul.links {
+    margin: 50px;
+}
