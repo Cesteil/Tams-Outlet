@@ -1,0 +1,15 @@
+.iteminfo {
+    display: inline-block;
+    border: solid;
+}
+
+table {
+    vertical-align:top;
+    height: 404px;
+}
+
+tr {
+    line-height: 400%;
+    border-bottom: 1pt solid black;
+    border-collapse: collapse;
+}

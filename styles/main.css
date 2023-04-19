@@ -14,16 +14,3 @@ ul {
 html {
     background-color: aqua;
 }
-
-.main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
-ul.items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-}
