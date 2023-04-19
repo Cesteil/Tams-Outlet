@@ -1,3 +1,29 @@
 /*
 Use this file for styles that apply to ALL pages, such as page header or footer styles.
 */
+
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+html {
+    background-color: aqua;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+ul.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
