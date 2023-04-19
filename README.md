@@ -18,4 +18,5 @@ Some tips for getting started:
 * Review what you have in the pages -- as you look through things add classes to help you under
 * Avoid adding classes to semantic elements, like nav -- let the tag name guide you with those
 * When in doubt, refer to the mockup or ask Tam's representative in class (your instructors)
+* Make sure you work on a branch then merge into main when you are finished
 
