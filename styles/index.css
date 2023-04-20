@@ -1,14 +1,20 @@
-.main {
+/* .main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     grid-auto-rows: minmax(100px, auto);
-}
+} */
 
-ul.items {
+/* ul.items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+} */
+
+main {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    max-height: 200vh;
 }
 
 ul.items li:hover {
@@ -32,3 +38,18 @@ li img {
     height: 200px;
 }
 
+ul.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    grid-column: 2;
+}
+
+#left-ad {
+    grid-column: 1;
+}
+
+#right-ad {
+    grid-column: 3;
+}
