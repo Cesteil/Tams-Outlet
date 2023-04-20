@@ -34,7 +34,10 @@ ul.links li {
     border: inset;
     border-width: 5px;
     background-color: tan;
+}
 
+li a{
+    text-decoration: none;
 }
 
 ul.links li:hover{
