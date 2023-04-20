@@ -28,3 +28,13 @@ body {
 input.button {
     margin: 30px;
 }
+
+input.button:hover{
+    background-color: lightblue;
+}
+
+p input:focus {
+    background-color: tan;
+    border: inset;
+    border-width: 5px;
+}
